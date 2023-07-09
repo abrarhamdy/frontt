@@ -1,0 +1,51 @@
+body{
+    height: 1000px;
+    margin: 0;
+}
+.test1{
+    height: 1000px;
+    background-image: url(../taskphotos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.test2{
+    height: 400px;
+    width: 1500px;
+    background-color: #332c2c;
+    border: #eee 3px solid;
+    margin-top: 10px;
+    opacity:0.8;
+    
+}
+
+.test2 .test3 .child{
+    height: 31%;
+    width: 100%;
+    margin: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #332c2c;
+    opacity:0.8;
+    border: none;
+
+}
+.test2 .test3 .submit{
+    height: 31%;
+    width: 100%;
+    color: deeppink;
+    
+}
+.child{
+    text-align:center
+}
+
+
+
+
+
+
+
+
+
+
+
