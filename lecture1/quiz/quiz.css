@@ -1,0 +1,38 @@
+body{
+    height: 1000px;
+}
+.float::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.card{
+    height: 700px;
+    width: 500px;
+    background-color: white;
+    border: 5px black solid;
+
+}
+img{
+    height: 200px;
+    width: 500px;
+}
+.title{
+    margin: 20px;
+    box-sizing: border-box;
+}
+.item1, .item2 , .item3{
+    font-size: 0.9rem;
+    color:rgb(189, 186, 186);
+    box-sizing: border-box;
+    margin: 20px;
+    /* text-align: center; */
+    
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    margin-right: 10px;
+    color: rgb(62, 62, 173);
+}
