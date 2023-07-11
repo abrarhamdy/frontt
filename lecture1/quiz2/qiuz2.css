@@ -1,0 +1,33 @@
+body{
+    height: 1000px;
+}
+.float::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.cont{
+    background-color: aliceblue;
+    height:700px;
+    width: 700px;
+}
+.img{
+    background-image: url(./quiz2.jpg);
+    height: 400px;
+    width: 400px;
+}
+i{
+    color: darkmagenta;
+    size: 50px;
+}
+.test3{
+    background-color: rgb(76, 109, 137);
+    text-align:center;
+    border:black 5px solid;
+    margin: 10px;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: #332c2c;
+    opacity:0.8;
+
+}
