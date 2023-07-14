@@ -103,7 +103,7 @@ span.counter {
 /* ****************************header part**************************** */
 header {
     background-color: var(--light_color);
-    max-height: calc(100vh - 145px);
+    min-height: calc(100vh - 145px);
 }
 header .left3,
 header .right3 {
@@ -112,7 +112,7 @@ header .right3 {
 
 header .right3 img {
     
-    max-width: 100%;
+    min-width: 100%;
 }
 /* *******************************part 1 **************************************** */
 article{
@@ -142,7 +142,6 @@ main{
 }
 main img{
     height: 300px;
-    width: 300px;
     border-radius: 50%;
     margin: 30px;
 }
