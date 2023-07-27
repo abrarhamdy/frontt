@@ -1,0 +1,350 @@
+*{
+    box-sizing: border-box;
+}
+/* *****************************part1******************************** */
+body {
+    height: 4500px;
+}
+
+nav {
+    height: 100vh;
+}
+
+.container {
+    height: 100%;
+    width: 80%;
+    margin: auto;
+}
+
+nav  {
+    background-image: url(../images/img/backgrounds/header-bg.jpg);
+    display: flex;
+    align-items: center;
+}
+
+.content {
+
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+
+}
+
+.agency {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header_button {
+    opacity: 0.8;
+    color: black;
+}
+
+/* **********************************part2********************************************* */
+header {
+
+    background-image: url(../images/img/backgrounds/services-bg.jpg);
+}
+
+header .items {
+    height: 500px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.item {
+    margin-top: 10px;
+    width: 33%;
+}
+.course i{
+    padding: 5px;
+}
+.item .course{
+    height: 30px;
+    width: 30px;
+    background-color: #058bce;
+    border-radius: 50%;
+    margin: 20px auto;
+    line-height: 30px;
+    
+}
+/* *************************************part3 ***************************************************** */
+article{
+    background-color: #fefefe;
+    height: 700px;
+}
+article .article{
+    display: flex;
+    justify-content: center;
+}
+article .left{
+    width: 40%; 
+    margin-left: 20%;
+    margin-top: 100px;
+
+}
+.article .right{
+    width: 60%;
+    margin-top: 170px;
+    margin-right: 20%;
+    
+}
+.right h2{
+    font-weight: bold;
+}
+.right h3{
+    color: #0b8ecf;
+}
+.right p{
+    width: 60%;
+}
+div i{
+    color: #fefefe;
+    box-sizing: border-box;
+    padding-left: 7px;
+}
+
+.icons i{
+    height: 30px;
+    width: 30px;
+    background-color: #058bce;
+    border-radius: 50%;
+    line-height: 30px;
+    
+}
+
+
+
+/* ************************************part 4************************************************************ */
+main{
+    background-color: #ececec;
+    height: 200px;
+}
+main .parts{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;   
+}
+
+.parts .part{
+    background-color: #058bce;
+    /* background-size:contain; */
+    border:10px solid #058bce;
+    color: #fefefe;
+    font-size: 20px;
+    margin-top: 120px;
+    /* margin-bottom: 50px; */
+
+}
+/* *********************************************part 5************************************************************ */
+code{
+    background-color:#fefefe;
+    height: 550px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.images .image{
+    margin-left: 5px;
+    width: 24%;
+}
+/* *********************************************part6****************************************************************** */
+section{
+    background-color: #fefefe;
+    height: 550px;
+}
+.category{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+} 
+section .category_left ,
+section .category_center ,
+section .category_right{
+    background-color:#058bce;
+    margin-top: 100px;
+    width: 20%;
+    text-align: center;
+
+}
+.category_left .blue,
+.category_center .blue,
+.category_right .blue{
+    color: #fefefe;
+    font-size: 30px;
+
+}
+.category_left button,
+.category_center button ,
+.category_right button{
+    background-color:white;
+    border: 10px solid white;
+    margin-bottom: 10px;
+    
+}
+
+.category_left .white,
+.category_center .white ,
+.category_right .white{
+    height: 25px;
+    background-color: #f7f7f7;
+    line-height: 20px;
+}
+.category_left .gray,
+.category_center .gray,
+.category_right .gray{
+    background-color: #e6e6e6;
+    height: 25px;
+}
+/* ****************************************part 7**************************************************** */
+address{
+    height: 200px;
+    background-color: #ebebeb;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.logos img{
+    height: 70px;
+    width: 10%;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+/* ******************************************part 8***************************************************** */
+aside{
+    background-color: #266dd1;
+    height: 400px;
+}
+.reveiw{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+.reveiw .parson_one ,
+.reveiw .parson_two {
+    background-color: #ffffff;
+    height: 200px;
+    width: 40%;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+}
+.parson_one img,
+.parson_two img{
+    height: 80px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 30px;
+
+}
+.parson_one .opinion,
+.parson_two .opinion{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: hsl(0deg 0% 52.94%);
+}
+.parson_one .info,
+.parson_two .info{
+    color:hsl(0, 0%, 44%);
+    margin-right: 30px;
+    margin-top: 150px;
+}
+/* **********************************************part 9******************************************** */
+#form_part{
+    background-image: url(../images/img/backgrounds/contact-img.png);
+    height:700px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.form .your_information{
+    width: 30%;
+    flex-direction: column;
+    
+}
+.your_information .name,
+.your_information .email,
+.your_information .number,
+.your_information .text,
+.your_information .button{
+    margin-top: 30px;
+    
+}
+.your_information .name,
+.your_information .email,
+.your_information .number,
+.your_information .text{
+    font-size: 15px;
+    padding-left: 10px;
+}
+.your_information .name{
+    margin-top: 150px;
+
+}
+.your_information .name,
+.your_information .email,
+.your_information .number{
+    
+    width: 375px;
+    height: 40px;
+
+}
+.your_information .button{
+    background-color:hsl(200deg 95.26% 41.37%);
+    color: hsl(0deg 0% 100%);
+    border:10px solid hsl(200deg 95.26% 41.37%); 
+    font-size: 20px;
+}
+.form .page_information,
+.form .my_emails{
+    width: 10%;
+    margin-top: 20px;
+    margin-right: 40px;
+    
+}
+/* ****************************************************end***************************************************** */
+footer{
+    background-color: black;
+    height: 200px;
+}
+.end{
+    margin-left: 60px;
+}
+.logo_info,
+.gopyright{
+    color: white;
+}
+.end_icon i{
+    height: 30px;
+    width: 30px;
+    background-color: #058bce;
+    border-radius: 50%;
+    line-height: 30px;
+}
+.gopyright{
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
